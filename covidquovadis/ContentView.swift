@@ -26,7 +26,7 @@ struct ContentView: View {
             
             Spacer()
 
-            HStack(spacing: 25) {
+            HStack(spacing: 5) {
                 Button(action: decrementCounter) {
                     Text("-")
                         .font(.largeTitle)
@@ -44,7 +44,6 @@ struct ContentView: View {
 
                 Text("\(counter)")
                     .font(.system(size: 80, weight: .bold))
-                    .padding()
 
                 Button(action: incrementCounter) {
                     Text("+")
